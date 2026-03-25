@@ -181,10 +181,10 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&none       &kp Q                         &kp W          &kp E         &kp R                &kp T                                  &kp Y      &kp U                &kp I                     &kp O          &kp P          &none
-&kp ESCAPE  &hm_l LS(LA(LC(LEFT_GUI))) A  &hm_l RCTRL S  &hm_l LGUI D  &hm_shift_l LSHFT F  &kp G                                  &kp H      &hm_shift_r RSHFT J  &hm_r RGUI K              &hm_r RCTRL L  &kp SEMICOLON  &kp ENTER
-&none       &kp Z                         &kp X          &kp C         &kp V                &kp B          &kp C_MUTE  &kp LG(N0)  &kp N      &kp M                &kp COMMA                 &kp DOT        &kp FSLH       &none
-&none       &none                         &bootloader    &kp TAB       &mo 2                &kp BACKSPACE                          &kp SPACE  &mo 3                &kp LS(LC(LA(LEFT_GUI)))  &bootloader    &none          &mo 4
+&none                  &kp Q                         &kp W          &kp E         &kp R                &kp T                                  &kp Y      &kp U                &kp I                     &kp O          &kp P          &none
+&holdtap LCTRL ESCAPE  &hm_l LS(LA(LC(LEFT_GUI))) A  &hm_l RCTRL S  &hm_l LGUI D  &hm_shift_l LSHFT F  &kp G                                  &kp H      &hm_shift_r RSHFT J  &hm_r RGUI K              &hm_r RCTRL L  &kp SEMICOLON  &kp ENTER
+&none                  &kp Z                         &kp X          &kp C         &kp V                &kp B          &kp C_MUTE  &kp LG(N0)  &kp N      &kp M                &kp COMMA                 &kp DOT        &kp FSLH       &none
+&none                  &none                         &bootloader    &kp TAB       &mo 2                &kp BACKSPACE                          &kp SPACE  &mo 3                &kp LS(LC(LA(LEFT_GUI)))  &bootloader    &none          &mo 4
             >;
 
             sensor-bindings =
